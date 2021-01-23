@@ -42,13 +42,13 @@ From: nvidia/cuda:9.2-cudnn7-devel-ubuntu16.04
   pip install matplotlib
   pip install soundfile  
   pip install librosa
-  pip install git+https://github.com/aliutkus/speechmetrics#egg=speechmetrics[gpu]
+  pip install git+https://github.com/KnurpsBram/speechmetrics#egg=speechmetrics[gpu]
 
   # Install pytorch with cuda92
   pip install torch==1.3.0+cu92 torchvision==0.4.1+cu92 -f https://download.pytorch.org/whl/torch_stable.html
 
   # Install dvae-speech
-  pip install git+https://github.com/XiaoyuBIE1994/DVAE-speech@code_release
+  pip install git+https://github.com/Corleno/DVAE-speech@code_release
 
 %environment
 

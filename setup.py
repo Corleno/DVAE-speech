@@ -29,7 +29,7 @@ setup(
         'soundfile',
         'librosa',
         'torch>=1.3.0+cu92',
-        'speechmetrics @ git+https://github.com/aliutkus/speechmetrics#egg=speechmetrics[cpu]',
+        'speechmetrics @ git+https://github.com/KnurpsBram/speechmetrics#egg=speechmetrics[cpu]',
     ],
     include_package_data=True,
     classifiers=[
